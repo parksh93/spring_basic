@@ -1,5 +1,7 @@
 package com.spring.core.chap01;
 
+import com.spring.core.chap02.Chef;
+import com.spring.core.chap02.KoreanChef;
 import org.junit.jupiter.api.Test;
 
 public class HotelTest {
@@ -10,5 +12,11 @@ public class HotelTest {
     public void HotelTest(){
         Hotel hotel = new Hotel();
         hotel.inform();
+
+    }
+    @Test
+    public void chefTest(){
+        Chef chef = new KoreanChef();
+        chef.cook();
     }
 }

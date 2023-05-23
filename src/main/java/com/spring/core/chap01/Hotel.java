@@ -14,7 +14,7 @@ public class Hotel {
 
     public Hotel(){
         this.restaurant = new FusionRestaurant();
-        chef = new ChineseChef();
+        this.chef = new ChineseChef();
     }
 
     public void inform(){
